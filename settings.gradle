@@ -1,0 +1,17 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        maven { name = "NeoForged"; url = "https://maven.neoforged.net/releases" }
+        mavenCentral()
+    }
+}
+
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.PREFER_PROJECT)
+    repositories {
+        mavenCentral()
+        maven { name = "NeoForged"; url = "https://maven.neoforged.net/releases" }
+    }
+}
+
+rootProject.name = "brskngs-optimized"

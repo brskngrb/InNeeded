@@ -1,0 +1,1 @@
+package com.brskng.optimized.config; public enum TouhouLittleMaidMode { OFF, CULLING, LOD, HYBRID }

@@ -1,0 +1,16 @@
+﻿.gradle/
+.gradle-local/
+build/
+out/
+run/
+logs/
+crash-reports/
+.idea/
+.vscode/
+
+*.class
+*.log
+*.tmp
+
+.DS_Store
+Thumbs.db

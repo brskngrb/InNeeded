@@ -1,0 +1,24 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.brskng.optimized.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "superbwarfare.SuperbWarfareVehicleRendererMixin",
+    "superbwarfare.SuperbWarfareVehicleShouldRenderMixin",
+    "superbwarfare.SuperbWarfareVehicleRenderTypeMixin",
+    "superbwarfare.PrismTankLaserLayerMixin",
+    "superbwarfare.PrismTankLightLayerMixin",
+    "ironslib.LivingEntityRendererContextMixin",
+    "ironslib.TransmogClientHandlerMixin",
+    "touhoulittlemaid.TouhouLittleMaidEntityMaidRendererMixin",
+    "touhoulittlemaid.TouhouLittleMaidEntityRendererShouldRenderMixin",
+    "touhoulittlemaid.LayerMaidHeldItemMixin",
+    "touhoulittlemaid.LayerMaidBackItemMixin",
+    "touhoulittlemaid.LayerMaidBackpackMixin",
+    "touhoulittlemaid.LayerMaidBannerMixin",
+    "touhoulittlemaid.LayerMaidBipedHeadMixin",
+    "create.KineticBlockEntityGetSpeedMixin"
+  ],
+  "injectors": { "defaultRequire": 0 }
+}
